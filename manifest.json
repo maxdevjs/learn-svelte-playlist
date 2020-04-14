@@ -1,0 +1,19 @@
+{
+  "description": "Svelte Playlist",
+  "homepage_url": "https://github.com/maxdevjs/learn-svelte-playlist",
+  "manifest_version": 2,
+  "name": "Svelte Playlist",
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55.0a2"
+    }
+  }
+}
