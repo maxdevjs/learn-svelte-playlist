@@ -4,11 +4,20 @@
   "manifest_version": 2,
   "name": "Svelte Playlist",
   "permissions": [
+    "storage",
     "alarms",
     "tabs"
   ],
+  "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon32.png",
+      "128": "icons/icon128.png"
+  },
   "background": {
     "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128.png"
   },
   "version": "1.0",
   "applications": {
